@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.topo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    margin: auto auto;
+}
+
+input {
+    height: 70px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;
+}
+
+button.add {
+    width: 20%;
+    cursor: pointer;
+    color: white;
+    background: #811781;
+    font-weight: bold;
+    border: none;
+    height: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px #811781;
+    margin-bottom: 2%;
+}
+
+.item .confere {
+    background: #d4f6d9;
+}
+
+.item.confere .item-nome {
+    color: gray;
+}
+
+.item-icone {
+    flex: 20%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.item-nome {
+    flex: 55%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.item-botao {
+    flex: 25%;
+}
+
+.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.boot-confere {
+    color: green;
+    text-decoration: line-through;
+}
